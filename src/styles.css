@@ -5,3 +5,12 @@ background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-2
 background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.titulo{
+    font-size: 1.8rem ;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
