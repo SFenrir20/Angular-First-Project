@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+
+// Componentes 
 import { AppComponent } from './app.component';
 import { CrearProductoComponent } from './Components/crear-producto/crear-producto.component';
 import { ListarProductosComponent } from './Components/listar-productos/listar-productos.component';
@@ -14,7 +17,8 @@ import { ListarProductosComponent } from './Components/listar-productos/listar-p
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration()
